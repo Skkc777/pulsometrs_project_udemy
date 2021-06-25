@@ -1,0 +1,37 @@
+{
+  "name": "skkc777.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Skkc777/skkc777.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Skkc777/skkc777.github.io/issues"
+  },
+  "homepage": "https://github.com/Skkc777/skkc777.github.io#readme",
+  "description": "",
+  "devDependencies": {
+    "browser-sync": "^2.26.14",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "node-sass": "^6.0.0"
+  },
+  "dependencies": {
+    "debug": "^2.6.9",
+    "gulp-clean-css": "^4.3.0",
+    "har-validator": "^5.1.5",
+    "request": "^2.88.2",
+    "resolve-url": "^0.2.1",
+    "urix": "^0.1.0",
+    "uuid": "^3.4.0"
+  }
+}
