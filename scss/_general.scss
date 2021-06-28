@@ -1,0 +1,137 @@
+.promo {
+    min-height: 650px;
+    background: url('../images/background/header_sec1_bg.png') center center/cover no-repeat;
+    color: #ffffff;
+    font-family: "MuseoSansCyrl", sans-serif;
+    font-weight: 500;
+
+    &_menu_top {
+        padding-top: 28px;
+    }
+
+    &_off {
+
+        &_text {
+            text-align: center;
+            font-size: 12px;
+        }
+
+        &_subtext {
+            margin-top: 12px;
+            text-align: center;
+            font-size: 18px;
+        }
+    }
+
+    &_num_and_button {
+        &__numb {
+            color: #ffffff;
+
+            &:active {
+                color: #ffffff;
+            }
+
+            &:hover {
+                color: $main-c;
+                text-decoration: none;
+            }
+        }
+    }
+
+
+    .promo_btn {
+        margin-top: 8px;
+        width: 150px;
+        height: 30px;
+        border: none;
+        border-radius: 5px;
+        background-color: $main-c;
+        color: $w;
+        font-weight: 300;
+        font-size: 12px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    &_choice-info {
+        margin-top: 91px;
+        text-align: right;
+
+        &__main_info {
+            h1 {
+                font-size: 42px;
+                font-weight: 500;
+                line-height: normal;
+                text-align: right;
+                text-transform: uppercase;
+                margin: 0;
+            }
+
+            h2 {
+                margin: 0;
+                margin-top: 17px;
+                font-size: 24px;
+                font-weight: 500;
+                text-align: right;
+                text-transform: uppercase;
+            }
+        }
+
+        &__sub {
+            margin-top: 67px;
+            display: flex;
+            justify-content: space-around;
+
+            &_icons {
+                width: 106px;
+                height: 96px;
+
+                img {
+                    display: block;
+                    margin: 0 auto;
+                }
+
+                div {
+                    margin-top: 20px;
+                    font-size: 13px;
+                    text-align: center;
+                }
+
+            }
+        }
+
+        &__sub_btn_and_ctlg {
+            margin-top: 67px;
+            text-align: right;
+            .promo_btn {
+                width: 300px;
+                height: 50px;
+                border-radius: 5px;
+                background-color: $main-c;
+                color: $w;
+                font-family: "Museo Sans Cyrl -500";
+                font-size: 16px;
+                text-align: center;
+                text-transform: uppercase;
+            }
+
+            div {
+                margin-top: 18px;
+                font-size: 16px;
+                a {
+                    color: $w;
+                    &:hover {
+                        color: $w;
+                        text-decoration: none;
+                    }
+                    &:active {
+                        color: $w;
+                    }
+                }
+            }
+        }
+
+
+    }
+
+}

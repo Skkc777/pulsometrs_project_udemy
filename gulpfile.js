@@ -17,7 +17,7 @@ gulp.task('server', function () {
 });
 
 gulp.task('styles', function () {
-    return gulp.src('sass/*.+(scss|sass)')
+    return gulp.src('scss/*.+(scss|sass)')
         .pipe(sass({
             outputStyle: 'compressed'
         }).on('error', sass.logError))
@@ -34,7 +34,7 @@ gulp.task('styles', function () {
 });
 
 gulp.task('watch', function () {
-    gulp.watch('sass/*.+(scss|sass)', gulp.parallel('styles'));
+    gulp.watch('scss/*.+(scss|sass)', gulp.parallel('styles'));
     gulp.watch('*.html').on('change', browserSync.reload);
 });
 
