@@ -1,0 +1,57 @@
+@import 'var';
+@import 'mixin';
+
+.advantages {
+
+    min-height: 475px;
+    padding: 70px 0 95px 0;
+    background-color: #f6f6f6;
+
+    .title {
+        text-align: center;
+        color: #0d0d0d;
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 65px;
+    }
+
+    &__item {
+        max-width: 240px;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 700;
+
+        img {
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 38px;
+        }
+
+        span {
+            display: block;
+            margin-top: 25px;
+            color: #0d0d0d;
+            font-size: 14px;
+            font-weight: 300;
+            text-align: center;
+            letter-spacing: .3px;
+
+            &:last-child {
+
+                a {
+                    color: #ff0000;
+
+                    &:hover {
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+
+    }
+}
